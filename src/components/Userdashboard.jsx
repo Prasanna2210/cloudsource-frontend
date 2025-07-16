@@ -5,6 +5,8 @@ import Tasks from "./Tasks";
 import ProfilePage from "./ProfilePage";
 import { FaListOl, FaTasks, FaHourglassHalf, FaCheckCircle } from "react-icons/fa";
 import "../App.css";
+import { ToastContainer,toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ProgressRing = ({ progress, total }) => {
   const radius = 60;
@@ -256,6 +258,7 @@ const UserDashboard = () => {
           onClose={handleCloseProfile}
         />
       )}
+      <ToastContainer position="top-right"/>
     </div>
   );
 };

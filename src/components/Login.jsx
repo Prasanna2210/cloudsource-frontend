@@ -20,7 +20,7 @@ const Login = () => {
       toast.success("Admin Login Successful!");
       setTimeout(() => {
         navigate("/admindashboard");
-      }, 3000);
+      }, 2000);
       return;
     }
 

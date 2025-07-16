@@ -22,9 +22,6 @@ function App() {
         <Route path="/dashboard" element={<Userdashboard />} />
         <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
-      <ToastContainer
-        position="top-right"
-      />
     </Router>
   );
 }

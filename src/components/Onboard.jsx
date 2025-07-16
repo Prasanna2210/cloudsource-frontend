@@ -432,6 +432,7 @@ const Onboard = () => {
           <button onClick={handleSubmit}>Submit</button>
         </div>
       )}
+      <ToastContainer position="top-right" />
     </div>
   );
 };
